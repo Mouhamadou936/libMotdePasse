@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libMotdePasse", "libMotdePasse\libMotdePasse.csproj", "{6F0086FC-5FF5-498D-9AD2-2CB6929432C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cslMotdePasse", "cslMotdePasse\cslMotdePasse.csproj", "{9CAED93D-12A3-4F26-93E4-67B6A26DBDF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F0086FC-5FF5-498D-9AD2-2CB6929432C7} = {6F0086FC-5FF5-498D-9AD2-2CB6929432C7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0086FC-5FF5-498D-9AD2-2CB6929432C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0086FC-5FF5-498D-9AD2-2CB6929432C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0086FC-5FF5-498D-9AD2-2CB6929432C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0086FC-5FF5-498D-9AD2-2CB6929432C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAED93D-12A3-4F26-93E4-67B6A26DBDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAED93D-12A3-4F26-93E4-67B6A26DBDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAED93D-12A3-4F26-93E4-67B6A26DBDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAED93D-12A3-4F26-93E4-67B6A26DBDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7065708E-8C4A-4D83-AC88-926BC741159D}
+	EndGlobalSection
+EndGlobal
